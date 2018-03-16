@@ -1,0 +1,16 @@
+Changelog
+
+0.3.5 -
+      - added Changelog to source directory and installation
+      - files Changelog and README.txt now installed to /usr/share/doc
+      - improved performance by removing db-exists call and
+        using db-store with return check instead
+
+0.3.4 -
+      - added opendb and closedb functions and calls
+      - fixed incorrect printing of option incompatibility warning
+
+0.3.3 -
+      - deleted ONE_GIG constant
+      - added db closure/deletion to -h option handling
+
