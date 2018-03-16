@@ -14,12 +14,11 @@ Usage
   Usage: dkusage [-d][[-f]|[-t]][-v][-h] [directory_names]
   
   Options:
-    -d  do not include files/directories with dot names
-    -f  follow symbolic links
-    -t  calculate tarfile size
-    -v  verbose mode - print filenames
-    -h  help - usage
-
+        -d  do not include files/directories with dot names
+        -f  follow symbolic links
+        -t  calculate tarfile size
+        -v  verbose mode - print filenames
+        -h  help - usage
 
 Installing
 ----------
