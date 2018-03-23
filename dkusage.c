@@ -204,12 +204,9 @@ void print_usage()
 /*
  * fsize:  accumulate file sizes and make adjustments for tarfiles
 */
-void fsize(char *fname, int spec)
+void fsize(char *name, int spec)
 {
     struct stat stbuf;
-
-    char * name = calloc(strlen(fname) + 2, sizeof(char));
-    sprintf(name, "'%s'", fname);
 
     /*
      * get the appropriate stat structure
